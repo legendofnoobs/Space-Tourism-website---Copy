@@ -1,0 +1,893 @@
+.bellefair-regular {
+    font-family: "Bellefair", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.barlow-condensed-regular {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.barlow-regular {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    width: 100%;
+}
+
+body{
+    background-image: url(/assets/home/background-home-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#myHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 96px;
+    width: 100%px;
+
+}
+
+#navbar{
+    border: 2px solid transparent;
+    width: 100%;
+    height: 96px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff04;
+    backdrop-filter: blur(20px);
+}
+
+
+#navbar ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 542px;
+    height: 19px;
+}
+
+#navbar li{
+    padding: 37px 0 37px 0;
+    a{
+        text-decoration: none;
+        color: white;
+        font-family: "Barlow Condensed";
+        font-size: 16px;
+        letter-spacing: 2.7px;
+        padding: 37px 0 37px 0;
+    }
+    .bold{
+        font-weight: bold;
+    }
+    list-style: none;
+}
+
+#navbar li:hover{
+    border-bottom: 2px solid rgb(177, 177, 177);
+}
+
+main{
+    width: 100%;
+    display: flex;
+}
+
+#container{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#homeContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    width: 450px;
+    height: 382px;
+    /* margin: 327px 0 0 150px; */
+    border: 1px solid transparent;
+    h5{
+        font-family: "Barlow Condensed";
+        font-size: 28px;
+        font-weight: normal;
+        letter-spacing: 4.72px;
+    }
+    h1{
+        font-family: "Bellefair";
+        font-size: 150px;
+    }
+    p{
+        font-family: "Barlow";
+        font-size: 18px;
+        color: #D0D6F9;
+        line-height: 32px;
+    }
+}
+
+#exploreBtn{
+    border: none;
+    width: 274px;
+    height: 274px;
+    border-radius: 50%;
+    /* margin: 420px 0 0 800px; */
+    margin: auto;
+    margin-top: 420px;
+    font-size: 32px;
+    font-family: "Bellefair";
+    letter-spacing: 2px;
+    transition: 0.2s ease;
+}
+
+#exploreBtn:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    transform: scale(1.2);
+}
+
+/*Destination css*/
+
+#destinationBody{
+    background-image: url(/assets/destination/background-destination-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+#destinationMain{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 85vh;
+    display: flex;
+}
+
+.leftContent , #rightContainer{
+    width: 50%;
+    margin: auto;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around; */
+    /* border: 2px solid red; */
+}
+
+
+.leftContent h5 , #crewLeftContainer h5{
+    font-family: "Barlow Condensed";
+    font-size: 28px;
+    font-weight: normal;
+    color: white;
+    letter-spacing: 4.72px;
+    span{
+        font-weight: bold;
+        color: rgba(255, 255, 255, 0.25);
+    }
+    width: 382px;
+    margin: 120px 0 0 166.5px;
+}
+
+#image{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 150px;
+    width: 445px;
+}
+
+#rightContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 445px;
+    height: 472px;
+    margin: auto;
+}
+
+#destinationNavbar ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 285px;
+    height: 34px;
+    list-style: none;
+    button{
+        border: none;
+        background-color: transparent;
+        font-family: "Barlow Condensed";
+        font-size: 16px;
+        color: white;
+        letter-spacing: 2.7px;
+        padding: 10px 0 10px 0;
+    }
+}
+
+#destinationNavbar ul li:hover{
+    border-bottom: 2px solid rgb(177, 177, 177);
+}
+
+#destinationNavbar ul li:click{
+    border-bottom: 2px solid rgb(177, 177, 177);
+}
+
+#title h2{
+    font-family: "Bellefair";
+    font-size: 100px;
+    font-weight: normal;
+    color: white;
+}
+
+#paragraph p{
+    font-family: "Barlow";
+    color: #D0D6F9;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+#avgAndEst{
+    display: flex;
+    width: 100%;
+}
+
+#avg , #est{
+    width: 50%;
+    height: 61px;
+    color: white;
+}
+
+#avg h6, #est h6{
+    font-family: "Barlow Condensed";
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 2.36px;
+    color: #D0D6F9;
+    margin-bottom: 20px;
+}
+
+#avg p, #est p{
+    color: white;
+    font-size: 28px;
+    font-family: "Bellefair";
+}
+
+/* CREW STYLE */
+
+#crewBody{
+    background-image: url(/assets/crew/background-crew-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#crewMain{
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    height: 90vh;
+}
+
+#crewRightContainer{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    /* border: 2px solid red; */
+    height: 100%;
+}
+
+#crewImage{
+    width: 500px;
+}
+
+#crewLeftContainer{
+    /* border: 2px solid blue; */
+    width: 50%;
+}
+
+#crewLeftContainerContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 500px;
+    height: 300PX;
+    margin: 166.5px 0 0 166.5PX;
+    /* border: 2px solid blue; */
+}
+
+#jobName{
+    font-family: "Bellefair";
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 32px;
+}
+
+#crewName{
+    font-family: "Bellefair";
+    color: rgb(255, 255, 255);
+    font-size: 56px;
+}
+
+#crewParagraph{
+    font-family: "Barlow";
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    line-height: 32px;
+    color: #D0D6F9;
+    width: 444PX;
+}
+
+#crewNavbar ul{
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin: 50px 0 0 166.5px;
+    width: 500px;
+}
+
+#crewNavbar ul li{
+    list-style: none;
+    margin: 0 20px 0 0;
+}
+
+#crewNavbar ul li button{
+    width: 15px;
+    height: 15px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.37);
+    transition: 0.2s ease;
+}
+
+#crewNavbar ul li button:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+/* Technology styles  */
+
+#TechnologyBody{
+    background-image: url(/assets/technology/background-technology-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#TechnologyMain{
+    display: flex;
+}
+
+#techLeftContainer, #techRightContainer{
+    width: 50%;
+    height: 90vh;
+    /* border: 2px solid red; */
+}
+
+#myH5 h5{
+    font-family: "Barlow Condensed";
+    font-size: 28px;
+    font-weight: normal;
+    color: white;
+    letter-spacing: 4.72px;
+    span{
+        font-weight: bold;
+        color: rgba(255, 255, 255, 0.25);
+    }
+    width: 382px;
+    margin: 120px 0 0 166.5px;
+}
+
+#techLeftContainercontent{
+    /* border: 2px solid red; */
+    margin-top: 200px;
+    height: 300px;
+    display: flex;
+}
+
+#techNavbar{
+    /* border: 2px solid blue; */
+    width: 100px;
+    margin-left: 166.5px;
+    margin-right: 80px;
+    ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        li{
+            list-style: none;
+            margin-bottom: 25px;
+            button{
+                width: 80px;
+                height: 80px;
+                border: 1px solid rgb(255, 255, 255);
+                border-radius: 50%;
+                background-color: transparent;
+                color: white;
+                font-family: "Bellefair";
+                font-size: 32px;
+                transition: 0.2s ease;
+            }
+            button:hover{
+                background-color: rgb(255, 255, 255);
+                color: rgb(0, 0, 0);
+            }
+        }
+    
+    }
+}
+
+#techLeftContainercontentText{
+    width: 470px;
+    height: 303px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    h6{
+        font-family: "Barlow Condensed";
+        font-size: 16px;
+        color: #D0D6F9;
+        letter-spacing: 2.7px;
+        font-style: normal;
+        font-weight: 300;
+        height: 19px;
+    }
+    h2{
+        font-family: "Bellefair";
+        font-size: 56px;
+        font-weight: normal;
+        color: white;
+        height: 64px;
+    }
+    p{
+        font-family: "Barlow";
+        font-size: 18px;
+        color: #D0D6F9;
+        line-height: 32px;
+        font-style: normal;
+        font-weight: 300;
+        height: 192px;
+    }
+}
+
+#techRightContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: none;
+}
+
+@media(max-width:900px){
+    #indexMain{
+        width: 90%;
+        height: 85%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #container{
+        width: 90%;
+        height: fit-content;
+        margin: auto;
+    }
+    #homeContent{
+        width: 90%;
+        text-align: center;
+        margin-top: 30px;
+        justify-content: space-around;
+        h1{
+            width: 100%;
+            font-size: 7em;
+        }
+        
+    }
+    #exploreBtn{
+        margin: auto;
+    }
+    /* destination css */
+    #destinationMain{
+        width: 90%;
+        height: 85%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .leftContent{
+        width: 100%;
+        margin: 0;
+        h5{
+            margin: 15px auto;
+            width: 100%;
+            text-align: center;
+        }
+        #image{
+            width: 100%;
+            margin: auto;
+            #planetImage{
+                width: 200px;
+            }
+        }
+    }
+    #rightContainer{
+        width: 100%;
+        text-align: center;
+        justify-content: space-around;
+        #destinationNavbar{
+            width: 100%;
+            text-align: center;
+            ul{
+                margin: 15px auto;
+            }
+        }
+        #titleOfPlanet{
+            font-size: 100px;
+        }
+        #paragraphOfPlanet{
+            width:80%;
+            font-size: 15px;
+            text-align: center;
+            margin: auto;
+        }
+    }
+    /* Crew css */
+    #crewMain{
+        width: 100%;
+        height: 89vh;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+    #crewLeftContainer{
+        width: 90%;
+        height: fit-content;
+        margin: 15px auto;
+        h5{
+            margin: 15px auto;
+            width: 100%;
+            text-align: center;
+        }
+        #crewLeftContainerContent{
+            width: 100%;
+            margin: 10px auto;
+            text-align: center;
+            #crewName{
+                font-size: 50px;
+            }
+            #jobName, #crewName{
+                width: 100%;
+                margin: 10px auto;
+            }
+            #crewParagraph{
+                margin: auto;
+                width: 90%;
+            }
+        }
+        #crewNavbar{
+            width: 100%;
+            text-align: center;
+            ul{
+                margin: 15px auto;
+                justify-content: center;
+                width: 40%;
+                li{
+                    margin: auto;
+                }
+            }
+        }
+    }
+    #crewRightContainer{
+        width: 100%;
+        height: fit-content;
+        #crewImage{
+            width: 250px;
+        }
+    }
+    /* tech css */
+    #TechnologyMain{
+        width: 90%;
+        height: 89vh;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #techLeftContainer{
+        width: 100%;
+        h5{
+            width: 100%;
+            margin: 10px auto;
+            text-align: center;
+        }
+        #techLeftContainercontent{
+            width: 100%;
+            height: fit-content;
+            margin: 10px auto;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            #techNavbar{
+                width: 100%;
+                margin: auto;
+                ul{
+                    flex-direction: row;
+                    justify-content: center;
+                    li{
+                        margin: 10px 20px;
+                        button{
+                            width: 50px;
+                            height: 50px;
+                        }
+                    }
+                }
+            }
+            #techLeftContainercontentText{
+                width: 100%;
+                margin: 10px auto;
+                height: fit-content;
+                #techTypeParagraph{
+                    width: 90%;
+                    margin: auto;
+                    height: fit-content;
+                }
+            }
+        }
+    }
+    #techRightContainer{
+        width: 100%;
+        align-items: flex-end;
+        #techImage{
+            width: 355px;
+        }
+    }
+}
+
+@media(max-width: 450px){
+    #indexMain{
+        width: 90%;
+        height: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #logo{
+        display: none;
+    }
+
+    #navbar{
+        position: fixed;
+        ul{
+            li{
+                padding: 28px 0;
+                a{
+                    text-align: center;
+                    padding: 28px 0;
+                }
+            }
+        }
+    }
+
+    #container{
+        width: 90%;
+        height: fit-content;
+        margin: auto;
+        
+        h5{
+            font-size: 16px;
+            margin-top: 10px;
+        }
+    }
+    #homeContent{
+        width: 100%;
+
+        text-align: center;
+        margin-top: -30px;
+        justify-content: space-around;
+        h1{
+            width: 100%;
+            font-size: 5em;
+        }
+        
+    }
+    #exploreBtn{
+        margin: 0 auto;
+        width: 150px;
+        height: 150px;
+        font-size: 26px;
+    }
+    /* destination css */
+    #destinationMain{
+        width: 90%;
+        height: 120vh;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .leftContent{
+        width: 100%;
+        margin: 0;
+        h5{
+            margin: 15px auto;
+            width: 100%;
+            text-align: center;
+            font-size: 20px;
+        }
+        #image{
+            width: 100%;
+            margin: auto;
+            #planetImage{
+                width: 200px;
+            }
+        }
+    }
+    #rightContainer{
+        width: 100%;
+        text-align: center;
+        justify-content: space-around;
+        #destinationNavbar{
+            width: 100%;
+            text-align: center;
+            ul{
+                margin: 15px auto;
+            }
+        }
+        #titleOfPlanet{
+            font-size: 70px;
+        }
+        #paragraphOfPlanet{
+            width:80%;
+            font-size: 15px;
+            text-align: center;
+            margin: auto;
+        }
+    }
+    /* Crew css */
+    #crewMain{
+        width: 100%;
+        height: 89vh;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+    #crewLeftContainer{
+        width: 90%;
+        height: fit-content;
+        margin: 15px auto;
+        h5{
+            margin: 15px auto;
+            width: 100%;
+            text-align: center;
+            font-size: 20px;
+        }
+        #crewLeftContainerContent{
+            width: 100%;
+            margin: 10px auto;
+            text-align: center;
+            #crewName{
+                font-size: 30px;
+            }
+            #jobName{
+                font-size: 25px;
+            }
+            #jobName, #crewName{
+                width: 100%;
+                margin: 10px auto;
+            }
+            #crewParagraph{
+                margin: auto;
+                width: 90%;
+                font-size: 16px;
+            }
+        }
+        #crewNavbar{
+            width: 100%;
+            text-align: center;
+            ul{
+                margin: 15px auto;
+                justify-content: center;
+                width: 40%;
+                li{
+                    margin: auto;
+                }
+            }
+        }
+    }
+    #crewRightContainer{
+        width: 100%;
+        height: fit-content;
+        #crewImage{
+            width: 250px;
+        }
+    }
+    /* tech css */
+    #TechnologyMain{
+        width: 90%;
+        height: 89vh;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #techLeftContainer{
+        width: 100%;
+        h5{
+            width: 100%;
+            margin: 10px auto;
+            text-align: center;
+            font-size: 20px;
+        }
+        #techLeftContainercontent{
+            width: 100%;
+            height: fit-content;
+            margin: 10px auto;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            #techNavbar{
+                width: 100%;
+                margin: auto;
+                ul{
+                    flex-direction: row;
+                    justify-content: center;
+                    li{
+                        margin: 10px 20px;
+                        button{
+                            width: 50px;
+                            height: 50px;
+                        }
+                    }
+                }
+            }
+            #techLeftContainercontentText{
+                width: 100%;
+                margin: 10px auto;
+                height: fit-content;
+                #techType{
+                    font-size: 35px;
+                    height: fit-content;
+                    margin: 5px 0;
+                }
+                #techTypeParagraph{
+                    width: 90%;
+                    margin: auto;
+                    height: fit-content;
+                }
+            }
+        }
+    }
+    #techRightContainer{
+        width: 100%;
+        align-items: flex-end;
+        #techImage{
+            width: 250px;
+        }
+    }
+}

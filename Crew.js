@@ -11,26 +11,42 @@ DHBtn.onclick = function(){
     jobNameJs.innerHTML = "COMMANDER";
     crewNameJs.innerHTML = "DOUGLAS HURLEY";
     crewParagraphJs.innerHTML = "Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.";
-    image.setAttribute('src','/assets/crew/image-douglas-hurley.png')
+    image.setAttribute('src','/assets/crew/image-douglas-hurley.png');
+    this.style.backgroundColor = "white";
+    MSBtn.style.backgroundColor = "rgba(255, 255, 255, 0.37)";
+    VGBtn.style.backgroundColor = "rgba(255, 255, 255, 0.37)";
+    AABtn.style.backgroundColor = "rgba(255, 255, 255, 0.37)";
 }
 
 MSBtn.onclick = function(){
     jobNameJs.innerHTML = "MISSION SPECIALIST";
     crewNameJs.innerHTML = "MARK SHUTTLEWORTH";
     crewParagraphJs.innerHTML = "Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind the Linux-based Ubuntu operating system. Shuttleworth became the first South African to travel to space as a space tourist.";
-    image.setAttribute('src','/assets/crew/image-mark-shuttleworth.png')
+    image.setAttribute('src','/assets/crew/image-mark-shuttleworth.png');
+    this.style.backgroundColor = "white";
+    DHBtn.style.backgroundColor = "rgba(255, 255, 255, 0.37)";
+    VGBtn.style.backgroundColor = "rgba(255, 255, 255, 0.37)";
+    AABtn.style.backgroundColor = "rgba(255, 255, 255, 0.37)";
 }
 
 VGBtn.onclick = function(){
     jobNameJs.innerHTML = "PILOT";
     crewNameJs.innerHTML = "VICTOR GLOVER";
     crewParagraphJs.innerHTML = "Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station. Glover is a commander in the U.S. Navy where he pilots an F/A-18.He was a crew member of Expedition 64, and served as a station systems flight engineer. ";
-    image.setAttribute('src','/assets/crew/image-victor-glover.png')
+    image.setAttribute('src','/assets/crew/image-victor-glover.png');
+    this.style.backgroundColor = "white";
+    MSBtn.style.backgroundColor = "rgba(255, 255, 255, 0.37)";
+    DHBtn.style.backgroundColor = "rgba(255, 255, 255, 0.37)";
+    AABtn.style.backgroundColor = "rgba(255, 255, 255, 0.37)";
 }
 
 AABtn.onclick = function(){
     jobNameJs.innerHTML = "FLIGHT ENGINEER";
     crewNameJs.innerHTML = "ANOUSHEH ANSARI";
     crewParagraphJs.innerHTML = "Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space.";
-    image.setAttribute('src','/assets/crew/image-anousheh-ansari.png')
+    image.setAttribute('src','/assets/crew/image-anousheh-ansari.png');
+    this.style.backgroundColor = "white";
+    MSBtn.style.backgroundColor = "rgba(255, 255, 255, 0.37)";
+    VGBtn.style.backgroundColor = "rgba(255, 255, 255, 0.37)";
+    DHBtn.style.backgroundColor = "rgba(255, 255, 255, 0.37)";
 }

@@ -14,7 +14,7 @@
     font-family: "Barlow", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
 
 *{
     margin: 0;
@@ -26,12 +26,39 @@ html{
     width: 100%;
 }
 
-body{
+#homeHtml{
     background-image: url(/assets/home/background-home-desktop.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
+}
+
+#destinationHtml{
+    background-image: url(/assets/destination/background-destination-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#crewHtml{
+    background-image: url(/assets/crew/background-crew-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#technologyHtml{
+    background-image: url(/assets/technology/background-technology-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+body{
     height: 100vh;
 }
 
@@ -147,11 +174,6 @@ main{
 /*Destination css*/
 
 #destinationBody{
-    background-image: url(/assets/destination/background-destination-desktop.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
     width: 100%;
 }
 
@@ -271,14 +293,6 @@ main{
 
 /* CREW STYLE */
 
-#crewBody{
-    background-image: url(/assets/crew/background-crew-desktop.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-}
-
 #crewMain{
     width: 100%;
     /* border: 2px solid red; */
@@ -365,14 +379,6 @@ main{
 }
 
 /* Technology styles  */
-
-#TechnologyBody{
-    background-image: url(/assets/technology/background-technology-desktop.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-}
 
 #TechnologyMain{
     display: flex;
@@ -479,6 +485,37 @@ main{
 }
 
 @media(max-width:900px){
+    #homeHtml{
+        background-image: url(/assets/home/background-home-tablet.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+    
+    #destinationHtml{
+        background-image: url(/assets/destination/background-destination-tablet.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+    
+    #crewHtml{
+        background-image: url(/assets/crew/background-crew-tablet.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+    
+    #technologyHtml{
+        background-image: url(/assets/technology/background-technology-tablet.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
     #indexMain{
         width: 90%;
         height: 85%;
@@ -667,6 +704,39 @@ main{
 }
 
 @media(max-width: 450px){
+
+    #homeHtml{
+        background-image: url(/assets/home/background-home-mobile.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+    
+    #destinationHtml{
+        background-image: url(/assets/destination/background-destination-mobile.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+    
+    #crewHtml{
+        background-image: url(/assets/crew/background-crew-mobile.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+    
+    #technologyHtml{
+        background-image: url(/assets/technology/background-technology-mobile.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+
     #indexMain{
         width: 90%;
         height: 80%;

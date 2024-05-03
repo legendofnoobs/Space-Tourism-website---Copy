@@ -769,8 +769,7 @@ main{
     #container{
         width: 90%;
         height: fit-content;
-        margin: auto;
-        
+        margin: 30px auto;
         h5{
             font-size: 16px;
             margin-top: 10px;
@@ -797,7 +796,7 @@ main{
     /* destination css */
     #destinationMain{
         width: 90%;
-        height: 120vh;
+        height: 100vh;
         margin: auto;
         display: flex;
         flex-direction: column;
@@ -824,6 +823,7 @@ main{
         width: 100%;
         text-align: center;
         justify-content: space-around;
+        margin: 20px 0;
         #destinationNavbar{
             width: 100%;
             text-align: center;
@@ -904,7 +904,7 @@ main{
     /* tech css */
     #TechnologyMain{
         width: 90%;
-        height: 89vh;
+        height: 88vh;
         margin: auto;
         display: flex;
         flex-direction: column;
@@ -959,7 +959,7 @@ main{
     }
     #techRightContainer{
         width: 100%;
-        align-items: flex-end;
+        align-items: flex-start;
         #techImage{
             width: 250px;
         }

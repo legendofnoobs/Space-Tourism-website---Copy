@@ -711,6 +711,7 @@ main{
         background-position: center;
         background-attachment: fixed;
         background-repeat: no-repeat;
+        height: fit-content;
     }
     
     #destinationHtml{
@@ -719,6 +720,7 @@ main{
         background-position: center;
         background-attachment: fixed;
         background-repeat: no-repeat;
+        height: fit-content;
     }
     
     #crewHtml{
@@ -727,6 +729,7 @@ main{
         background-position: center;
         background-attachment: fixed;
         background-repeat: no-repeat;
+        height: fit-content;
     }
     
     #technologyHtml{
@@ -735,6 +738,7 @@ main{
         background-position: center;
         background-attachment: fixed;
         background-repeat: no-repeat;
+        height: fit-content;
     }
 
     #indexMain{

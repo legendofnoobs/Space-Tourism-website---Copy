@@ -213,6 +213,16 @@ main{
     margin-top: 100px;
     margin-left: 150px;
     width: 445px;
+    animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
 }
 
 #rightContainer{
